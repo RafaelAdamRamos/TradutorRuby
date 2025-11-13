@@ -16,7 +16,7 @@ Este projeto foi desenvolvido como um exercício inicial para meus estudos em Ru
 ## Instalação e Execução
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seuusuario/tradutor-ruby.git
+   git clone https://github.com/RafaelAdamRamos/TradutorRuby.git
    cd TradutorRuby
 
 2. **Rode o Bundler**
