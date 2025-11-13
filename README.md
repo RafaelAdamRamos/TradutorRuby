@@ -20,10 +20,12 @@ Este projeto foi desenvolvido como um exercício inicial para meus estudos em Ru
    cd TradutorRuby
 
 2. **Rode o Bundler**
+   ```
     cd project
     bundle install
 
 3. **Rode o projeto**
+   ```
     cd ..
     ruby translatorRuby.rb
 
