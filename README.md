@@ -80,12 +80,12 @@ The translator works similarly to Google Translate: you select the language of y
     zu → Zulu
 
 ## Folder Structure
-TRADUTORRUBY/
- ├── project/
- │    ├── Gemfile
- │    └── Gemfile.lock
- ├── README.md
- └── translatorRuby.rb
+- TRADUTORRUBY/
+  - project/
+    - Gemfile
+    - Gemfile.lock
+  - README.md
+  - translatorRuby.rb
 
 ## Contribution
 Feel free to open issues or submit pull requests!
