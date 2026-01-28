@@ -1,83 +1,85 @@
-# Tradutor Ruby
-O **Tradutor Ruby** utiliza a gem **HTTParty** junto com a API **MyMemory Translated** para executar um tradutor simples.  
-Ao final, a tradução é salva em um arquivo `.txt` com a data e o horário da tradução.  
-Este projeto foi desenvolvido como um exercício inicial para meus estudos em Ruby.
+# Ruby Translator
+
+The **Ruby Translator** uses the **HTTParty** gem together with the **MyMemory Translated API** to perform a simple translator.  
+At the end, the translation is saved into a `.txt` file with the date and time of the translation.  
+This project was developed as an initial exercise for my Ruby studies.
 
 ---
 
-## Linguagens e bibiotecas utilizadas
-- **Ruby** (linguagem principal)
-- **HTTParty** (requisições HTTP)
-- **JSON** (formatação e manipulação de dados)
-- **URI** (tratamento de URLs)
+## Languages and libraries used
+- **Ruby** (main language)
+- **HTTParty** (HTTP requests)
+- **JSON** (data formatting and manipulation)
+- **URI** (URL handling)
 
 ---
 
-## Instalação e Execução
-1. **Clone o repositório**
-   ```bash
+## Installation and Execution
+1. **Clone the repository**
+```bash
    git clone https://github.com/RafaelAdamRamos/TradutorRuby.git
    cd TradutorRuby
+```
 
-2. **Rode o Bundler**
-   ```
-    cd project
-    bundle install
-
-3. **Rode o projeto**
-   ```
-    cd ..
-    ruby translatorRuby.rb
+2. **Run Bundler**
+```
+ cd project
+ bundle install
+```
+3. **Run the project**
+```
+ cd ..
+ ruby translatorRuby.rb
+```
 
 ---
 
-## Manual de instruções - (Presente no código)
+## Instruction manual - (Present in the code)
+You can end the program at any prompt asking which option you want to perform by entering -1.
 
-Você pode finalizar o programa em qualquer pergunta de qual opção deseja realizar informando -1
+This program receives the text entered by the user and translates it, showing the result and the original text in a txt file.
 
-Este programa recebe o texto que for inserido pelo usuário e traduz mostrando o resultado e o texto original em um arquivo txt
+The translator works similarly to Google Translate: you select the language of your text to be translated into the language you choose. However, in this program it is necessary to enter an abbreviation of the language name so the translator can recognize the selected language.
 
-O tradutor funciona assim como o do google, você seleciona a lingua do seu texto para ser traduzido para a lingua que você seleciona. Porém neste é necessário inserir uma abreviação do nome da lingua para que o tradutor reconheça a lingua selecionada
-
-    Idiomas disponíveis:
+    Available languages:
     af → Afrikaans
-    sq → Albanês
-    de → Alemão
-    am → Amárico
-    ar → Árabe
-    hy → Armênio
-    az → Azerbaijano
-    bn → Bengalês
-    bs → Bósnio
-    bg → Búlgaro
-    ca → Catalão
-    zh → Chinês
-    ko → Coreano
-    da → Dinamarquês
-    es → Espanhol
-    et → Estoniano
-    fi → Finlandês
-    fr → Francês
-    el → Grego
+    sq → Albanian
+    de → German
+    am → Amharic
+    ar → Arabic
+    hy → Armenian
+    az → Azerbaijani
+    bn → Bengali
+    bs → Bosnian
+    bg → Bulgarian
+    ca → Catalan
+    zh → Chinese
+    ko → Korean
+    da → Danish
+    es → Spanish
+    et → Estonian
+    fi → Finnish
+    fr → French
+    el → Greek
     hi → Hindi
-    nl → Holandês
-    hu → Húngaro
-    id → Indonésio
-    en → Inglês
-    it → Italiano
-    ja → Japonês
-    ms → Malaio
-    pl → Polonês
-    pt → Português
-    ro → Romeno
-    ru → Russo
-    sv → Sueco
-    tr → Turco
-    uk → Ucraniano
-    vi → Vietnamita
+    nl → Dutch
+    hu → Hungarian
+    id → Indonesian
+    en → English
+    it → Italian
+    ja → Japanese
+    ms → Malay
+    pl → Polish
+    pt → Portuguese
+    ro → Romanian
+    ru → Russian
+    sv → Swedish
+    tr → Turkish
+    uk → Ukrainian
+    vi → Vietnamese
     zu → Zulu
 
-## Estrutura de Pastas
+## Folder Structure
 TRADUTORRUBY/
  ├── project/
  │    ├── Gemfile
@@ -85,8 +87,8 @@ TRADUTORRUBY/
  ├── README.md
  └── translatorRuby.rb
 
-## Contribuição
-Sinta-se à vontade para abrir issues ou enviar pull requests!
+## Contribution
+Feel free to open issues or submit pull requests!
 
-## Licença
-Este projeto está sob a licença MIT.
+## License
+This project is licensed under the MIT License.
